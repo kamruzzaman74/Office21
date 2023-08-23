@@ -6,7 +6,7 @@ function ContactPage() {
       <div className="container mx-auto py-8">
         <h1 className="text-4xl font-bold text-center text-blue-600 mb-4">Get in Touch</h1>
         <p className="text-gray-700 text-center mb-8">
-          We'd love to hear from you! Reach out using the contact form or visit our office.
+          We&apos;d love to hear from you! Reach out using the contact form or visit our office.
         </p>
 
         <section className="bg-white rounded-lg shadow-lg p-6 mb-6">
@@ -75,7 +75,3 @@ function ContactPage() {
 }
 
 export default ContactPage;
-
-
-
-
