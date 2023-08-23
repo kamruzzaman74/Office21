@@ -3,17 +3,17 @@ import Service from '../Service/page';
 import Image from 'next/image';
 import WorkSection from '../Components/WorkSection';
 import Link from 'next/link';
-import Blog from'../Blog/page';
+import Blog from '../Blog/page';
+
 function Page() {
   return (
     /* eslint-disable react/no-unescaped-entities */
-
     <div className="p-8 m-4 bg-white rounded-lg shadow-md">
-      <h1 className="text-4xl font-semibold mb-4 text-sky-300 text-center">
+      <h1 className="text-4xl md:text-5xl font-semibold mb-6 text-sky-500 text-center">
         Build an Online Platform for Your Business and Start-up.
       </h1>
       <div className="flex flex-col md:flex-row items-center justify-center">
-        <p className="mb-6 md:mb-0 md:mr-6 text-gray-700 text-center md:text-left">
+        <p className="mb-6 md:mb-0 md:mr-6 text-gray-700 text-center md:text-left text-lg">
           growMore19 is a software development company that designs and develops custom software applications, frameworks, and tools to solve problems and achieve specific outcomes. Our expertise includes application software, system infrastructure software, software-as-a-service (SaaS), operating systems, databases, and analytics software.
         </p>
         <div className="md:w-1/2 flex-shrink-0">
@@ -22,7 +22,7 @@ function Page() {
       </div>
 
       <div className="mt-8 border-t border-gray-300 pt-4">
-        <h2 className="text-2xl font-semibold mb-2 text-gray-800 border-b-2 border-gray-800 pb-2">
+        <h2 className="text-2xl font-semibold mb-4 text-gray-800 border-b-2 border-gray-800 pb-2">
           Why Choose Us?
         </h2>
         <ul className="list-disc list-inside text-gray-700 pl-4">
@@ -48,28 +48,30 @@ function Page() {
           </li>
         </ul>
       </div>
-      
+
       <Service />
       <WorkSection />
 
       {/* Beautifully designed section */}
       <div className="bg-gradient-to-r from-purple-500 to-blue-500 text-white py-16 text-center rounded-lg mt-8">
-        <h2 className="text-3xl font-semibold mb-4">
+        <h2 className="text-3xl md:text-4xl font-semibold mb-4">
           Ready to Turn Your Ideas into Reality?
         </h2>
-        <p className="text-lg mb-4">
+        <p className="text-lg md:text-xl mb-6">
           Let's collaborate and create innovative software solutions that propel your business forward.
         </p>
-      
-        <Link href="/Contact" className="bg-white text-purple-500 hover:bg-purple-500 hover:text-white py-2 px-6 rounded-full font-semibold transition duration-300">
-        Get in Touch
-            
-          </Link>
+        <Link href="/Contact"
+          className="bg-white text-purple-500 hover:bg-purple-500 hover:text-white py-2 px-6 rounded-full font-semibold transition duration-300">
+            Get in Touch
+        
+        </Link>
       </div>
-      <Blog/>
+
+      <Blog />
     </div>
   );
 }
 
 export default Page;
+
 

@@ -11,11 +11,11 @@ const Header = () => {
   };
 
   return (
-    <header className=" bg-cyan-300 text-pink-400 ">
+    <header className="bg-gradient-to-r from-pink-400 to-purple-600 text-white">
       <div className="container mx-auto px-4 py-2 flex items-center justify-between">
-        <Link href="/" className="flex items-center text-xl font-boldui">
-        <Image src="/aa.png" alt="my logo image" width={100} height={200}/>
-        <span className="ml-2 font-extrabold">grow <span className="text-yellow-400">More</span>19</span>
+        <Link href="/" className="flex items-center text-2xl font-semibold">
+          <Image src="/aa.png" alt="my logo image" width={100} height={200} />
+          <span className="ml-2 font-extrabold text-yellow-400">grow <span className="text-white">More</span>19</span>
         </Link>
         <button
           className="md:hidden text-black hover:text-red-800"
@@ -43,33 +43,21 @@ const Header = () => {
             isMenuOpen ? 'block' : 'hidden'
           } md:flex md:items-center md:space-x-4 mt-4 md:mt-0`}
         >
-          <Link href="/Home"className="block md:inline-block py-2 px-4 md:px-0 text-center hover:text-yellow-400">
-              Home
-            
+          <Link href="/Home" className="block md:inline-block py-2 px-4 md:px-0 text-center hover:text-yellow-300 text-lg font-semibold">
+            Home
           </Link>
-          <Link href="/About"className="block md:inline-block py-2 px-4 md:px-0 text-center hover:text-yellow-400">
-              About
-            
+          <Link href="/About" className="block md:inline-block py-2 px-4 md:px-0 text-center hover:text-yellow-300 text-lg font-semibold">
+            About
           </Link>
-
-          <Link href="/Service"className="block md:inline-block py-2 px-4 md:px-0 text-center hover:text-yellow-400">
-              Service
-            
+          <Link href="/Service" className="block md:inline-block py-2 px-4 md:px-0 text-center hover:text-yellow-300 text-lg font-semibold">
+            Service
           </Link>
-          <Link href="/Contact"className="block md:inline-block py-2 px-4 md:px-0 text-center hover:text-yellow-400">
-              Contact
-            
+          <Link href="/Contact" className="block md:inline-block py-2 px-4 md:px-0 text-center hover:text-yellow-300 text-lg font-semibold">
+            Contact
           </Link>
-          <Link href="/Blog"className="block md:inline-block py-2 px-4 md:px-0 text-center hover:text-yellow-400">
-              Blog
-            
+          <Link href="/Blog" className="block md:inline-block py-2 px-4 md:px-0 text-center hover:text-yellow-300 text-lg font-semibold">
+            Blog
           </Link>
-        
-
-
-
-          
-         
         </nav>
       </div>
     </header>
@@ -77,5 +65,3 @@ const Header = () => {
 };
 
 export default Header;
-
-
