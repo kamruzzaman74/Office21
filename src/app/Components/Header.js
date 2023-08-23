@@ -1,4 +1,3 @@
-
 'use client';
 import Link from 'next/link';
 import { useState } from 'react';
@@ -12,11 +11,11 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-inherit  text-gray-950 drop-shadow-sm">
+    <header className=" bg-cyan-300 text-pink-400 ">
       <div className="container mx-auto px-4 py-2 flex items-center justify-between">
         <Link href="/" className="flex items-center text-xl font-boldui">
         <Image src="/aa.png" alt="my logo image" width={100} height={200}/>
-        <span className="ml-2">grow More19</span>
+        <span className="ml-2 font-extrabold">grow <span className="text-yellow-400">More</span>19</span>
         </Link>
         <button
           className="md:hidden text-black hover:text-red-800"
