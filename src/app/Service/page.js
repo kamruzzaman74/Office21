@@ -16,7 +16,7 @@ const Page = () => {
       </div>
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         <FlexSection
-          imageUrl="/p.jpg"
+          imageUrl="/P.jpg"
           heading="Web Development"
           paragraph="Our expert team creates stunning and functional websites tailored to your business goals."
         />

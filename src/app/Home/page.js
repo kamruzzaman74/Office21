@@ -3,7 +3,7 @@ import Service from '../Service/page';
 import Image from 'next/image';
 import WorkSection from '../Components/WorkSection';
 import Link from 'next/link';
-
+import Blog from'../Blog/page';
 function Page() {
   return (
     /* eslint-disable react/no-unescaped-entities */
@@ -66,6 +66,7 @@ function Page() {
             
           </Link>
       </div>
+      <Blog/>
     </div>
   );
 }
