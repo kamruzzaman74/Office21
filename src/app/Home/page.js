@@ -7,7 +7,7 @@ function Page() {
   return (
     <div className="p-8 m-4 bg-white rounded-lg shadow-md">
       <h1 className="text-4xl font-semibold mb-4 text-sky-300 text-center">
-        Build an Online Platform for Your Business &amp; Start-up.
+        Build an Online Platform for Your Business and Start-up.
       </h1>
       <div className="flex flex-col md:flex-row items-center justify-center">
         <p className="mb-6 md:mb-0 md:mr-6 text-gray-700 text-center md:text-left">
