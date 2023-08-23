@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="bg-gradient-to-r from-purple-500 to-pink-500 py-8">
       <div className="container mx-auto text-center">
-        <p className="text-3xl md:text-4xl font-extrabold text-white mb-2">🌸 © 2023 grow <span className="text-yellow-300">More</span>19. All rights reserved. 🌸</p>
+        <p className="text-3xl md:text-4xl font-extrabold text-white mb-2">🌸grow <span className="text-yellow-300">More</span>19. All rights reserved. 🌸</p>
         <p className="text-lg md:text-xl font-semibold text-pink-100">💌 Contact us: <a href="mailto:19growmore@gmail.com" className="underline">19growmore@gmail.com</a> | <a href="tel:01786400994" className="underline">01786400994 📞</a></p>
         <div className="flex justify-center mt-4">
           <a href="#" className="text-white hover:text-yellow-300 transition-colors duration-300 mx-2">

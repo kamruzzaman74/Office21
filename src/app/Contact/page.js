@@ -13,21 +13,23 @@ function ContactPage() {
           <h2 className="text-2xl font-semibold text-blue-600 mb-4">Contact Form</h2>
           <form className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="md:col-span-2">
-              <label className="block text-gray-700 mb-2 font-semibold">Name</label>
-              <input
-                type="text"
-                className="w-full px-4 py-3 rounded-md bg-gray-100 focus:outline-none focus:bg-white"
-              />
-            </div>
-            <div>
-              <label className="block text-gray-700 mb-2 font-semibold">Email</label>
-              <input
-                type="email"
-                className="w-full px-4 py-3 rounded-md bg-gray-100 focus:outline-none focus:bg-white"
-              />
+              <div className="mb-2">
+                <label className="block text-gray-700 font-semibold">Name</label>
+                <input
+                  type="text"
+                  className="w-full px-4 py-3 rounded-md bg-gray-100 focus:outline-none focus:bg-white"
+                />
+              </div>
+              <div className="mb-2">
+                <label className="block text-gray-700 font-semibold">Email</label>
+                <input
+                  type="email"
+                  className="w-full px-4 py-3 rounded-md bg-gray-100 focus:outline-none focus:bg-white"
+                />
+              </div>
             </div>
             <div className="col-span-2">
-              <label className="block text-gray-700 mb-2 font-semibold">Message</label>
+              <label className="block text-gray-700 font-semibold">Message</label>
               <textarea
                 className="w-full h-32 px-4 py-3 rounded-md bg-gray-100 focus:outline-none focus:bg-white"
               ></textarea>
