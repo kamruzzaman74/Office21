@@ -16,17 +16,17 @@ const Page = () => {
       </div>
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         <FlexSection
-          imageUrl="p.jpg"
+          imageUrl="/p.jpg"
           heading="Web Development"
           paragraph="Our expert team creates stunning and functional websites tailored to your business goals."
         />
         <FlexSection
-          imageUrl="yyy.jpg"
+          imageUrl="/yyy.jpg"
           heading="Mobile App Development"
           paragraph="Transform your ideas into engaging and user-friendly mobile applications for iOS and Android."
         />
         <FlexSection
-          imageUrl="kk.jpg"
+          imageUrl="/kk.jpg"
           heading="Enterprise Software"
           paragraph="We offer a range of top-notch services to meet your software needs."
         />
