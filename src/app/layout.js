@@ -1,6 +1,7 @@
 import './globals.css'
 import { Hahmlet, Inter } from 'next/font/google'
 import Header from './Components/Header'
+import Footer from './Components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,7 +17,7 @@ export default function RootLayout({ children }) {
         
       <Header/>
         {children}
-        
+        <Footer/>
         
         </body>
     </html>
