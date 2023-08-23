@@ -2,9 +2,12 @@ import React from 'react';
 import Service from '../Service/page';
 import Image from 'next/image';
 import WorkSection from '../Components/WorkSection';
+import Link from 'next/link';
 
 function Page() {
   return (
+    /* eslint-disable react/no-unescaped-entities */
+
     <div className="p-8 m-4 bg-white rounded-lg shadow-md">
       <h1 className="text-4xl font-semibold mb-4 text-sky-300 text-center">
         Build an Online Platform for Your Business and Start-up.
@@ -57,12 +60,11 @@ function Page() {
         <p className="text-lg mb-4">
           Let's collaborate and create innovative software solutions that propel your business forward.
         </p>
-        <a
-          href="/contact"
-          className="bg-white text-purple-500 hover:bg-purple-500 hover:text-white py-2 px-6 rounded-full font-semibold transition duration-300"
-        >
-          Get in Touch
-        </a>
+      
+        <Link href="/Contact" className="bg-white text-purple-500 hover:bg-purple-500 hover:text-white py-2 px-6 rounded-full font-semibold transition duration-300">
+        Get in Touch
+            
+          </Link>
       </div>
     </div>
   );
